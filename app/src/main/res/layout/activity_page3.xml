@@ -4,22 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tw.brad.android.games.myactivitytest.MainActivity"
-    android:orientation="vertical"
-    >
+    tools:context="tw.brad.android.games.myactivitytest.Page3Activity">
 
     <TextView
-        android:id="@+id/main_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Main Page"
+        android:text="I am Page3"
         android:textSize="36sp"
         />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Goto Page2"
-        android:onClick="gotoPage2"
+        android:text="goto Main"
+        android:onClick="gotoMain"
         />
 
 
