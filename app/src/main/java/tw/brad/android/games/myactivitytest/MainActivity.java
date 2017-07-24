@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle data = new Bundle();
         data.putString("key1", "Value1");
         data.putInt("key2", 123);
+
         it.putExtra("mydata", data);
 
         startActivity(it);
